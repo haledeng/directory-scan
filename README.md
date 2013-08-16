@@ -1,6 +1,1 @@
-var dirScan = require('./dirScan.js');
-dirScan.config({
-	extension:['.html', '.js', '.xhtml', '.css'], 
-	noScanDir:['image', 'images','video', 'flash', 'pics']	
-})
-console.log(dirScan.files('d:\\test'));
+目录扫描，获取目录下文件，支持文件后缀名过滤和目录名称过滤。
