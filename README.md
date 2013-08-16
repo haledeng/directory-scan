@@ -8,10 +8,10 @@ scan directory to get files
 var dirScan = require('./dirScan.js');
 
 配置：
-dirScan.config({
   // 得到哪些后缀名文件
+  //需要过滤的目录名称， 支持绝对路径
+dirScan.config({
 	extension:['.html', '.js', '.xhtml', '.css'], 
-	//需要过滤的目录名称， 支持绝对路径
 	noScanDir:['image', 'images','video', 'flash', 'pics']	
 });
 
